@@ -1,8 +1,8 @@
-#Datenintensive Protesse bei der Stadtbibliothek Köln
+Datenintensive Protesse bei der Stadtbibliothek Köln
 
 Autor: Philipp Bültmann
 
-1	Einleitung
+#1	Einleitung
 
 Die Stadtbibliothek Köln verfügt über einen physischen Bestand von ca. 800.000 Medien sowie zahlreiche digitale Angebote. Sie besteht aus einer Zentralbibliothek und  elf Zweigstellen und einem Bibliotheksbus. Als Library Management System wird das Programm „Concerto“ der Firma Bibliomondo genutzt. Die verschiedenen Bibliotheken sind dabei über ein Corporate  Network miteinander verbunden, um allen den Zugriff zum Library Management System sowie zu anderen Dienste zu ermöglichen. 
 
