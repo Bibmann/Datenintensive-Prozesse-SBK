@@ -2,6 +2,12 @@
 
 Autor: Philipp Bültmann
 
+- [1 Einleitung](#1einleitung)
+- [2 Datenintensive Prozesse](#2datenintensiveprozesse)
+	- [2.1 Bibliothekarische Prozesse](#2.1bibliothekarischeprozesse)
+	- [2.2 .IT-Prozesse](#2.2.it-prozesse)
+- [3 Beispielprozess "Operating"](#3beispielprozess"operating") 
+
 ## 1	Einleitung
 
 Die Stadtbibliothek Köln verfügt über einen physischen Bestand von ca. 800.000 Medien sowie zahlreiche digitale Angebote. Sie besteht aus einer Zentralbibliothek und  elf Zweigstellen und einem Bibliotheksbus. Als Library Management System wird das Programm „Concerto“ der Firma Bibliomondo genutzt. Die verschiedenen Bibliotheken sind dabei über ein Corporate  Network miteinander verbunden, um allen den Zugriff zum Library Management System sowie zu anderen Dienste zu ermöglichen. 
