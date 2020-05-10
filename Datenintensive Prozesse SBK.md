@@ -12,17 +12,22 @@ In den folgenden Abschnitten sollen die datenintensiven Prozesse der Stadtbiblio
 
 ### 2.1	Bibliothekarische Prozesse
 
-Fremddatenübernahme 
+**Fremddatenübernahme**
+
 Im Rahmen der Fremddatenübernahme importiert die Stadtbibliothek verschiedene Daten in die Datenbanken des Library Management Systems (LMS). Dies geschieht, um unter anderem die Katalogisierung zu vereinfachen. Die Daten der DNB Reihen A, N; T und M werden z.B. in den Katalog des LMS  geladen. Die für diesen Import benötigte Daten werden von der Stadtbibliothek über den FTP-Server des HBZ heruntergeladen. Danach werden diese zunächst durch ein Konventierungstool umgewandelt, um das Datenformat in ein für Concerto passendes Format zu ändern. Danach können die Daten in eine dafür speziell vorgesehene Datenbank des LMS kopiert werden.
 
-Daten-Korrektur
+**Daten-Korrektur**
+
 Im Prozess der Neuanmeldung eines Benutzers bzw. einer Benutzerin, werden verschiedene personenbezogene Daten erfasst. Diese Daten werden vom Personalausweis des zukünftigen Nutzenden abgelesen und händisch in ein entsprechendes Anmeldemenü des LMS eingetragen. Bei diesem Prozess kann es zu fehlerhaften Eingaben durch die Mitarbeitenden kommen. Dies äußert sich besonders negativ in Bezug auf die Adressdaten, da diese insbesondere für die Bearbeitung von Geldmahnungen absolut zutreffend übernommen sein müssen. Nach entsprechender Fehlermeldung der Software, korrigieren die Mitarbeitenden der Rechnungsstelle der Bibliothek diese Daten manuell im LMS. Dies geschieht für gewöhnlich einmal im Monat und nimmt mehrere Stunden Arbeitszeit eines Mitarbeitenden in Anspruch.
  
  ### 2.2	.IT-Prozesse
 
-Datensicherung 
+**Datensicherung**
+
 Die Stadtbibliothek Köln pflegt ein eigenständiges Netz mit entsprechender Server-Client-Umgebung. In diesem kommt neben dem oben erwähnten LMS Concerto eine Microsoft Active-Directory Umgebung zum Einsatz. Für das Aufgabengebiet der Datensicherung stehen verschiedene Techniken zur Verfügung. Die Datenbank des LMS sowie ein Domänen-Controller, welche das Kernstück einer Microsoft Domänen bilden, werden über die Software BackupExec von Veritas auf Linear Tape Open(LTO)  Magnetbänder gesichert. Die Sicherung wird nächtlich durchgeführt und benötigen mehrere Stunden. Diese Magnetbänder werden anschließend in einem feuerfesten Tresor für vier Wochen aufbewahrt. Zusätzlich zu dieser Form der Sicherung werden Kopien der übrigen Server auf einen separaten Netzwerkspeicher exportiert. Dies geschieht je nach Server täglich bzw. einmal pro Woche und wird durch ein spezielles Powershell-Skript ermöglicht. Diese Sicherungsskripte arbeiten in zwei Schritten: Zunächst wird der Server im Live-Betrieb in wenige, dafür relativ große Dateien exportiert. In einem zweiten Schritt wird dieser Export auf den Netzwerkspeicher kopiert und verbleibt dort bis zur nächsten Sicherung.
-Routine Tätigkeit „Operating“
+
+**Routine Tätigkeit „Operating“**
+
 Der EDV-Abteilung der Stadtbibliothek fallen bestimmte, dauerhaft wiederkehrende Aufgaben zu, die für gewöhnlich morgens erledigt werden: 
 •	Der Kassenbericht wird auf einem Netzwerk-Share veröffentlicht
 •	Die LTO-Bänder werden kontrolliert und ausgetauscht
