@@ -29,9 +29,9 @@ Die Stadtbibliothek Köln pflegt ein eigenständiges Netz mit entsprechender Ser
 **Routine Tätigkeit „Operating“**
 
 Der EDV-Abteilung der Stadtbibliothek fallen bestimmte, dauerhaft wiederkehrende Aufgaben zu, die für gewöhnlich morgens erledigt werden: 
-•	Der Kassenbericht wird auf einem Netzwerk-Share veröffentlicht
-•	Die LTO-Bänder werden kontrolliert und ausgetauscht
-•	Die postalischen Benachrichtigungen für die Nutzenden werden gedruckt 
+* Der Kassenbericht wird auf einem Netzwerk-Share veröffentlicht
+* Die LTO-Bänder werden kontrolliert und ausgetauscht
+* Die postalischen Benachrichtigungen für die Nutzenden werden gedruckt 
 Gerade dieser Prozess des morgendlichen Operatings bietet Verbesserungspotenziale und soll im nächsten Abschnitt genauer betrachtet werden.
 
 ## 3	Beispielprozess "Operating"
