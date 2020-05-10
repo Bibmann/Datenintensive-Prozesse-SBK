@@ -20,7 +20,7 @@ Im Rahmen der Fremddatenübernahme importiert die Stadtbibliothek verschiedene D
 
 Im Prozess der Neuanmeldung eines Benutzers bzw. einer Benutzerin, werden verschiedene personenbezogene Daten erfasst. Diese Daten werden vom Personalausweis des zukünftigen Nutzenden abgelesen und händisch in ein entsprechendes Anmeldemenü des LMS eingetragen. Bei diesem Prozess kann es zu fehlerhaften Eingaben durch die Mitarbeitenden kommen. Dies äußert sich besonders negativ in Bezug auf die Adressdaten, da diese insbesondere für die Bearbeitung von Geldmahnungen absolut zutreffend übernommen sein müssen. Nach entsprechender Fehlermeldung der Software, korrigieren die Mitarbeitenden der Rechnungsstelle der Bibliothek diese Daten manuell im LMS. Dies geschieht für gewöhnlich einmal im Monat und nimmt mehrere Stunden Arbeitszeit eines Mitarbeitenden in Anspruch.
  
- ### 2.2	.IT-Prozesse
+ ### 2.2	IT-Prozesse
 
 **Datensicherung**
 
